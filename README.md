@@ -10,13 +10,14 @@
 | [✈️ 프로젝트 소개(개발환경) ](#airplane-프로젝트-소개) |
 | :---: |
 | [✋ 팀 소개 ](#hand-팀-소개) |
+| [⏲️ 프로젝트 수행 절차 ](#timer_clock-프로젝트-수행-절차) |
 | [💭 기획의도 ](#thought_balloon-기획의도) |
 | [🌟 주요기능 ](#star2-주요기능) |
-| [⏲️ 프로젝트 수행 절차 ](#timer_clock-프로젝트-수행-절차) |
 | [🕹️ 기술 스택 ](#joystick-기술-스택) |
 | [🕸️ 와이어프레임 ](#spider_web-와이어프레임) |
 | [📓 UML ](#notebook-통합모델링-다이어그램) |
 | [☑️ 트러블 슈팅 ](#ballot_box_with_check-트러블-슈팅) |
+| [✋ 개인 소감 ](#hand-개인-소감) |
 
 </div>
 
@@ -70,6 +71,23 @@
 
 <br><br>
 
+## :timer_clock: 프로젝트 수행 절차
+
+| 구분 | 기간 | 활동 | 비고 |
+| :---: | :---: | :---: | :---: |
+| 사전 기획 | 06.03(월) | 코드 컨벤션, 협업 툴, 프로젝트 게임 선정 | 퍼즐 게임 |
+| 게임 기획 | 06.03(월) ~ 06.10(월) | 구현 목표 선정, 작업 환경 조율 |
+| 프레임 워크 | 06.03(월) ~ 06.03(월) | 와이어 프레임 제작 | Figma |
+| 기능 구현 | 06.03(월) ~ 06.10(월) | 프로젝트 기능 구현 코딩 및 유니티 작업 |
+| 에셋 수집 | 06.03(월) ~ 06.07(금) | UI 및 보스, 사운드 작업용 에셋 수집 |
+| 게임 구축 | 06.07(금) ~ 06.10(월) | 사운드 적용 및 기능 오류 수정, 코드 리팩토링 |
+
+<br>
+
+[:ringed_planet: 목차로 돌아가기](#목차)
+
+<br><br>
+
 ## :thought_balloon: 기획의도
 
 ### 1. 주제 선정 배경
@@ -77,6 +95,32 @@
 
 ### 2. 기존 유사 서비스와 차별화된 내용
 지금까지 배운 지식으로 로스트아크 아브렐슈드 5관문을 최대한 재현한다
+
+<br>
+
+[:ringed_planet: 목차로 돌아가기](#목차)
+
+<br><br>
+
+## :spider_web: 와이어프레임
+
+![image](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/b10b7b8f-b7f1-4dab-bb09-cafcbf750132)
+
+<br>
+
+![image](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/33a2f636-609a-4e5c-aa57-22182648076b)
+
+<br>
+
+![MainScene 1번 기믹](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/11ff3684-d993-42a7-bb3e-00d2e9f8a41f)
+
+<br>
+
+![MainScene X자 기믹](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/c3fff0b8-9ec0-4def-97b3-3c8c1aea66c9)
+
+<br>
+
+![MainScene 십자 기믹](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/54ba0e74-92e3-4a57-aad6-0a7afb042806)
 
 <br>
 
@@ -227,20 +271,9 @@
 
 <br>
 
-[:ringed_planet: 목차로 돌아가기](#목차)
+### 6. 게임플레이 영상
 
-<br><br>
-
-## :timer_clock: 프로젝트 수행 절차
-
-| 구분 | 기간 | 활동 | 비고 |
-| :---: | :---: | :---: | :---: |
-| 사전 기획 | 06.03(월) | 코드 컨벤션, 협업 툴, 프로젝트 게임 선정 | 퍼즐 게임 |
-| 게임 기획 | 06.03(월) ~ 06.10(월) | 구현 목표 선정, 작업 환경 조율 |
-| 프레임 워크 | 06.03(월) ~ 06.03(월) | 와이어 프레임 제작 | Figma |
-| 기능 구현 | 06.03(월) ~ 06.10(월) | 프로젝트 기능 구현 코딩 및 유니티 작업 |
-| 에셋 수집 | 06.03(월) ~ 06.07(금) | UI 및 보스, 사운드 작업용 에셋 수집 |
-| 게임 구축 | 06.07(금) ~ 06.10(월) | 사운드 적용 및 기능 오류 수정, 코드 리팩토링 |
+https://www.youtube.com/watch?v=_uBMZdGRLIU&t=1s
 
 <br>
 
@@ -256,32 +289,6 @@
 | 옵저버 패턴 | 다양한 객체에서 동시에 다양한 역할들을 수행하기 위해서 사용 | event, action을 통해 특정 상황에서 Call 할 경우 해당 OnEvent에 구독된 모든 이벤트들이 실행됨 |
 | 싱글톤 | StartScene에서 설정된 설정값들을 MainScene에 가져가기 위함 | StartScene에서 설정한 음향값들이 MainScene으로 그대로 넘어감 |
 | InputSystem | 다양한 input 값들에 직접 event를 등록하여 키 입력의 확장성을 확보 | 우클릭 : 이동, 스페이스바 : 슬라이드 기능 구현; 키 추가 및 변경에 대한 확장성 확보 |
-
-<br>
-
-[:ringed_planet: 목차로 돌아가기](#목차)
-
-<br><br>
-
-## :spider_web: 와이어프레임
-
-![image](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/b10b7b8f-b7f1-4dab-bb09-cafcbf750132)
-
-<br>
-
-![image](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/33a2f636-609a-4e5c-aa57-22182648076b)
-
-<br>
-
-![MainScene 1번 기믹](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/11ff3684-d993-42a7-bb3e-00d2e9f8a41f)
-
-<br>
-
-![MainScene X자 기믹](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/c3fff0b8-9ec0-4def-97b3-3c8c1aea66c9)
-
-<br>
-
-![MainScene 십자 기믹](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/54ba0e74-92e3-4a57-aad6-0a7afb042806)
 
 <br>
 
@@ -305,11 +312,19 @@
 
 <br>
 
+https://www.notion.so/teamsparta/Player-Enemy-df1e18bd375a408eab77971acc36e919
+
+<br>
+
 ![트러블슈팅 1 2](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/f9812d65-1841-4b19-ae78-4c1a43b9bded)
 
 <br>
 
 ![트러블슈팅 2 1](https://github.com/LuBly/LuBly-Sparta-Week4-3DGame-TeamProject/assets/154639213/0d71b907-9d92-4613-8ba5-eb125a3ef6e6)
+
+<br>
+
+https://www.notion.so/teamsparta/Ground-9706dc19730f4bb8b7f41eb776343a30
 
 <br>
 
@@ -325,7 +340,12 @@
 
 <br><br>
 
+## :hand: 개인 소감
 
+![개인소감](https://github.com/LuBly/Sparta-Week4-3DGame-TeamProject-Abrelshud/assets/154639213/0f6f5a3a-495f-47af-92bd-c34c329fdbc9)
 
-## 프로젝트 구조
-![image](https://github.com/LuBly/Sparta-Week4-3DGame-TeamProject-Abrelshu/assets/48556414/632f5e51-d69e-44cb-aec7-baddb7895485)
+<br><br>
+
+## 프로젝트 보완점 / 개선점
+
+![보완점](https://github.com/LuBly/Sparta-Week4-3DGame-TeamProject-Abrelshud/assets/154639213/15bc85bb-eacd-47ba-b71f-86a153de03a9)
